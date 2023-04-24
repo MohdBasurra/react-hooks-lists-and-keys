@@ -7,6 +7,7 @@ function ColorList() {
     "salmon",
     "darkslategray",
     "hotpink",
+    "blue"
   ];
 
   return (
@@ -18,9 +19,11 @@ function ColorList() {
         <li style={{ color: colors[2] }}>{colors[2]}</li>
         <li style={{ color: colors[3] }}>{colors[3]}</li>
         <li style={{ color: colors[4] }}>{colors[4]}</li>
+        <li style={{ color: colors[5] }}>{colors[5]}</li>
       </ol>
     </div>
   );
 }
+//export 
 
 export default ColorList;
